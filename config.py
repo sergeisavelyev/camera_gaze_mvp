@@ -1,0 +1,18 @@
+CAMERA_INDEX = 0
+
+WINDOW_NAME = "Camera Gaze MVP"
+
+MODEL_PATH = "models/face_landmarker.task"
+
+# Новый MediaPipe Tasks API
+NUM_FACES = 1
+MIN_FACE_DETECTION_CONFIDENCE = 0.5
+MIN_FACE_PRESENCE_CONFIDENCE = 0.5
+MIN_TRACKING_CONFIDENCE = 0.5
+
+# Пороги логики контакта
+FRAMES_TO_CONFIRM_LOOKING = 8
+FRAMES_TO_CONFIRM_NOT_LOOKING = 5
+
+# Эвристика "смотрит в сторону камеры"
+MAX_NOSE_OFFSET_RATIO = 0.20
