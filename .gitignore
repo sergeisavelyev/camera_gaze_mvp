@@ -1,6 +1,32 @@
-# Python cache
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-test.ipynb
-*.ipynb
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Ultralytics
+runs/
+*.pt
+
+
+# Data
+test_data/
+*.mov
+*.mp4
+*.avi
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

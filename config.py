@@ -16,3 +16,24 @@ FRAMES_TO_CONFIRM_NOT_LOOKING = 5
 
 # Эвристика "смотрит в сторону камеры"
 MAX_NOSE_OFFSET_RATIO = 0.20
+
+# ===== VEHICLE MODE =====
+VIDEO_PATH = "test_data/road_video.mov"
+VEHICLE_WINDOW_NAME = "Vehicle Counter MVP"
+
+YOLO_MODEL_PATH = "yolov8n.pt"
+
+# Считаем только эти классы
+VEHICLE_CLASSES = {"car", "bus", "truck"}
+
+# ROI для встречной полосы: (x1, y1, x2, y2)
+ROI_X1 = 0
+ROI_Y1 = 500
+ROI_X2 = 980
+ROI_Y2 = 1070
+
+# Линия подсчёта
+COUNT_LINE_Y = 1000
+
+# Показывать ли окно
+SHOW_VIDEO = True
